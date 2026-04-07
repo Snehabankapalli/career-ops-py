@@ -1,0 +1,77 @@
+# CV Content for Resume Generation
+# This is the source of truth for your resume content
+
+full_name: "Sneha Bankapalli"
+email: "snehabankapalli@gmail.com"
+phone: "+1-XXX-XXX-XXXX"
+location: "United States (Remote)"
+linkedin: "linkedin.com/in/sneha2095"
+github: "github.com/Snehabankapalli"
+
+summary: |
+  Senior Data Engineer with 7+ years building production-grade data pipelines
+  in fintech and healthcare. Specialized in AWS serverless architectures,
+  Snowflake data warehousing, PySpark/Spark processing, and real-time streaming
+  with Kafka. Proven track record optimizing multi-petabyte pipelines and
+  delivering HIPAA-compliant data systems.
+
+experience:
+  - title: "Senior Data Engineer"
+    company: "Fintech Company"
+    dates: "2021 - Present"
+    description:
+      - "Architected petabyte-scale ETL pipelines using PySpark on AWS EMR Serverless"
+      - "Migrated data warehouse to Snowflake, reducing costs by 40% and improving performance 3x"
+      - "Built real-time streaming with Kafka and AWS Kinesis for transaction data"
+      - "Implemented automated data quality monitoring with Great Expectations"
+      - "Led migration from Airflow to Dagster, improving pipeline reliability"
+      - "Mentored 3 junior engineers and established code review standards"
+
+  - title: "Data Engineer"
+    company: "Healthcare Technology Company"
+    dates: "2018 - 2021"
+    description:
+      - "Developed HIPAA-compliant pipelines processing PHI for 10M+ patients"
+      - "Built AWS Glue ETL jobs for claims data processing (50M+ records daily)"
+      - "Created dbt models enabling self-service BI for 200+ analysts"
+      - "Implemented column-level encryption and data masking"
+      - "Reduced pipeline failures by 70% through comprehensive testing"
+
+  - title: "Data Engineer"
+    company: "Telecommunications Company"
+    dates: "2016 - 2018"
+    description:
+      - "Built Spark Streaming pipelines for real-time network analytics"
+      - "Designed data lake architecture on S3 with Delta Lake for ACID transactions"
+      - "Created Airflow DAGs for orchestrating 100+ dependent pipelines"
+
+skills:
+  - "Python"
+  - "SQL"
+  - "PySpark"
+  - "Apache Spark"
+  - "AWS EMR"
+  - "AWS Glue"
+  - "Snowflake"
+  - "Apache Kafka"
+  - "dbt"
+  - "Airflow"
+  - "Dagster"
+  - "Terraform"
+  - "Great Expectations"
+  - "Docker"
+  - "Kubernetes"
+
+education:
+  - degree: "MS Information Technology"
+    school: "Valparaiso University"
+    year: "2016"
+  - degree: "BTech Electronics and Communication Engineering"
+    school: "JNTUK University"
+    year: "2014"
+
+certifications:
+  - "Azure Data Engineer Associate (DP-203)"
+  - "Azure Fundamentals (AZ-900)"
+  - "Six Sigma Green Belt"
+  - "ITIL Foundation"

@@ -1,0 +1,41 @@
+# Career-Ops Python Configuration
+# Copy to config/profile.yml and fill in your details
+
+candidate:
+  full_name: "Your Name"
+  email: "your.email@example.com"
+  phone: "+1-XXX-XXX-XXXX"
+  location: "Your Location"
+  linkedin: "linkedin.com/in/yourprofile"
+  github: "github.com/yourusername"
+  portfolio_url: "https://yourportfolio.com"
+
+target_roles:
+  primary:
+    - "Senior Data Engineer"
+    - "Staff Data Engineer"
+  archetypes:
+    - name: "Data Engineer"
+      level: "Senior"
+      fit: "primary"
+    - name: "Analytics Engineer"
+      level: "Senior"
+      fit: "secondary"
+
+narrative:
+  headline: "Your professional headline"
+  summary: "Your career summary"
+  superpowers:
+    - "Key skill 1"
+    - "Key skill 2"
+    - "Key skill 3"
+
+compensation:
+  target_range: "$150K-200K"
+  currency: "USD"
+  minimum: "$130K"
+
+location:
+  country: "United States"
+  timezone: "EST"
+  remote_preference: "Remote preferred"
