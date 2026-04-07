@@ -10,6 +10,8 @@
 
 ---
 
+![Demo](docs/demo.gif)
+
 ## Overview
 
 **Career-Ops Python** is a production-ready job search automation system designed specifically for data engineers. It combines web scraping, AI-powered evaluation, and automated resume generation into a single, trackable pipeline.
